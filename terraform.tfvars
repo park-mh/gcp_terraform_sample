@@ -2,6 +2,7 @@
 project_id   = "mh-test-project-01"
 project_name = "cz"
 region       = "asia-northeast3"
+zone_type    = "private"
 env          = "test" # test / dev / stg / prd
 
 # VPC
@@ -70,3 +71,6 @@ subnet_data_secondary = {
     }
   ],
 }
+
+nat_ip_id = "cz-test-nat-an3-ip"
+nat_id = "cz-test-nat-an3"

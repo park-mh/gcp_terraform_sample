@@ -79,6 +79,7 @@ variable "division" {
   }
 }
 
+
 ## Local Variables
 locals {
   #project_name = var.project_name

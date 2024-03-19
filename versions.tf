@@ -1,8 +1,5 @@
 # Provider 
 provider "google" {
-  region  = var.region
-  version = "~> 4.0"
-  project = var.project_id
 }
 
 # Backend : Remote State Bucket
